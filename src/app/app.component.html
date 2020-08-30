@@ -1,7 +1,7 @@
 <div [ngStyle]="{'overflow': 'hidden'}">
 
   <div (click)="startGame()">
-    <img src="../assets/play.png" alt="play" [ngClass]="{'playButton': true}"/>
+    <img src="./assets/play.png" alt="play" [ngClass]="{'playButton': true}"/>
   </div>
 
   <div [ngClass]="{'score': true, 'score-animation': gameOver}">
@@ -10,8 +10,8 @@
 
   <div [ngClass]="['game-container']">
   
-    <img #car id="car" [ngClass]="{'car': true, 'car-animation': isCarMoving}"   src="../assets/car.png"/>
-    <img #boy [ngClass]="{'boy': true,'boy-jump': jump }" [ngStyle]="{'left': boyLeft}" src="../assets/running-boy.png"/>
+    <img #car id="car" [ngClass]="{'car': true, 'car-animation': isCarMoving}"   src="./assets/car.png"/>
+    <img #boy [ngClass]="{'boy': true,'boy-jump': jump }" [ngStyle]="{'left': boyLeft}" src="./assets/running-boy.png"/>
 
   </div>
 </div>
