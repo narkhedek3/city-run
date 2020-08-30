@@ -1,6 +1,6 @@
 # City-Run
   This is fun game to avoid vehicle obstacles and score extra 10 points on each obstacle cross.
-
+  [play game here](https://narkhedek3.github.io/city-run/)
 
 ## Development server
 
