@@ -9,7 +9,7 @@ export class AppComponent implements AfterViewInit {
   title = 'city-run';
   isCarMoving = false;
   jump = false;
-  boyLeft = '8vw';
+  boyLeft = '10vw';
   score = 0;
   gameOver = false;
   isPaused = false;

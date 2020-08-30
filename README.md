@@ -1,6 +1,6 @@
-# StopMeIfYouCan
+# City-Run
+  This is fun game to avoid vehicle obstacles and score extra 10 points on each obstacle cross.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Development server
 
