@@ -63,7 +63,7 @@ export class AppComponent implements AfterViewInit {
             if (this.score !== score + 10)
               if (!this.gameOver) {
                 this.score += 10;
-                if (this.score % 10 === 0)
+                if (this.score % 50 === 0)
                   this.updateSpeed();
               }
           }, 1000);
